@@ -1,0 +1,7 @@
+node_modules
+.scannerwork
+**.bak
+**.new
+**.tmp
+**/Thumbs.db
+**/.DS_Store

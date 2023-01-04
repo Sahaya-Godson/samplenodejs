@@ -1,0 +1,17 @@
+---
+applications:
+- name: nodejs-demo
+  host: nodejs-demo
+  command: node app.js
+  path: .
+  # PIVOTAL: domain: cfapps.io
+  # BLUEMIX: domain: mybluemix.net
+  domain: mydomain.com
+  instances: 1
+  disk_quota: 1024M
+  memory: 128M
+  env:
+    SIMPLICITE_WEBSITE: https://www.simplicite.io
+    SIMPLICITE_URL: "https://demo.dev.simplicite.io"
+    SIMPLICITE_USERNAME: "website"
+    SIMPLICITE_PASSWORD: "simplicite"

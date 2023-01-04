@@ -1,0 +1,51 @@
+#nodejs-demo {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  #nodejs-demo {
+    width: 1024px;
+    margin: 0 auto;
+  }
+}
+#nodejs-demo .error {
+  background: #FF0000;
+  color: #FFFFFF;
+  padding: 12px;
+  border-radius: 8px;
+}
+#nodejs-demo img {
+  max-width: 75%;
+}
+#nodejs-demo h1 {
+  color: #222;
+  font-size: 1.5em;
+}
+#nodejs-demo h2 {
+  color: #25911e;
+  font-size: 1.25em;
+  font-style: italic;
+}
+#nodejs-demo p {
+  color: #777;
+}
+#nodejs-demo ul {
+  list-style-type: none;
+  margin: 0;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+}
+#nodejs-demo li {
+  background-color: #FFFFFF;
+  display: inline-block;
+  vertical-align: top;
+  border: solid 1px #eee;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #ddd;
+  margin: 10px;
+  padding: 10px;
+  min-width: 200px;
+  max-width: 250px;
+  height: 350px;
+  overflow: auto;
+}

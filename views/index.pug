@@ -1,0 +1,25 @@
+doctype html
+html(lang='en')
+  head
+    include head
+    script(type='text/javascript').
+      $(document).ready(function() {
+          console.log('Version: #{version}');
+          var ps = !{products};
+          var pc = $('#nodejs-demo-products');
+          for (var i = 0; i < ps.length; i++) {
+            var p = ps[i];
+            pc.append(
+              $('<li/>')
+                .append($('<img/>', { title: p.demoPrdReference, src: 'data:' + p.demoPrdPicture.mime + ';base64,' + p.demoPrdPicture.content }))
+                .append($('<h1/>').append(p.demoPrName))
+                .append($('<h2/>').append(p.demoPrdReference))
+                .append($('<p/>').append(p.demoPrdDescription))
+              );
+          }
+      });
+  body
+    #nodejs-demo
+      include header
+      ul#nodejs-demo-products
+      include footer

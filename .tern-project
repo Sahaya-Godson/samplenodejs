@@ -1,0 +1,23 @@
+{
+  "plugins": {
+    "guess-types": {
+      
+    },
+    "outline": {
+      
+    },
+    "node": {
+      
+    },
+    "jshint": {
+      "configFile": ".jshintrc"
+    },
+    "highlight": {
+      
+    }
+  },
+  "ecmaVersion": 5,
+  "libs": [
+    
+  ]
+}
